@@ -11,7 +11,7 @@ sleep(1)
 print (Fore.GREEN, Back.BLUE,"")
 print ("   1:japan")
 print ("   2:Ameika🤢")
-print ("   3:qatar")
+print ("   3:brazil")
 print (Style.RESET_ALL, " \n \n \n \n \n")
 code = input('///>>>')
 if code=='1':
@@ -28,7 +28,7 @@ if code=='2':
  print (Style.RESET_ALL,Fore.GREEN, "")
  print (" hacked!! \n plase wait!!", Style.RESET_ALL)
  sleep(3)
- B = amrika.read()
+ print (Fore.RED, B)
 if code=='3':
  brazil = open("brazil.txt", "r")
  C = brazil.read()
